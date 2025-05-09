@@ -7,10 +7,9 @@ on:
     branches: [ "main" ]
   issue_comment:                                     
     types: [created, edited, deleted]
-
+    if: ${{ github.event.issue.pull_request }}
 jobs:
   build:
-    if: ${{ github.event.issue.pull_request }}
     runs-on: ubuntu-latest
 
     strategy:
