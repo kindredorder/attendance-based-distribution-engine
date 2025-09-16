@@ -11,7 +11,7 @@
     "@mui/x-data-grid": "^6.10.2",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "axios": "^1.4.0",
+    "axios": "^1.8.2",
     "firebase-admin": "^11.10.1",
     "multi-column-sort": "^2.2.1",
     "react": "latest",
